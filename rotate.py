@@ -28,7 +28,7 @@ def lambda_handler(event, context):
 
   # Create new Rubrik API Token for the service account
   # Note: Due to using a self-signed certificate on the Rubrik demo cluster, verify is set to False
-  print('Sending request to Rubrik Cluster C')
+  print('Sending request to Rubrik')
   response = requests.post(rubrikUrl, headers=headers, data=payload, verify=False)
   
   # Store the new Rubrik API token by looking inside of the session response details
