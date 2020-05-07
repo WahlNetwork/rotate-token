@@ -1,4 +1,4 @@
-# Rotate Token Example
+# Rotate HashiCorp Vault Token with AWS Lambda using Python
 
 A simple example written in Python 3 that uses AWS Lambda to perform a task.
 
